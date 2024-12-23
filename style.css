@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Nanum+Myeongjo&family:wght@200..900&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 1;
+}
+.top{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 2;
+    /* background-color: black;
+    opacity: 0.4; */
+    background: radial-gradient(
+        rgba(0, 0, 0, 0.05),
+        rgba(0, 0, 0, 0.9)
+    );
+}
+.wrap{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 3;
+}
+.box01{
+    width: 100%;
+    padding-top: 120px;
+    text-align: center;
+}
+.box02{
+    width: 100%;
+    padding-top: 30px;
+    text-align: center;
+}
+.box03{
+    width: 100%;
+    padding-top: 40px;
+    text-align: center;
+    font-family: "Noto Sans KR", serif;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    line-height: 29px;
+    color: white;
+}
+.box04{
+    width: 100%;
+    padding-top: 220px;
+    text-align: center;
+    font-family: "Noto Sans KR", serif;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    line-height: 29px;
+    color: white;
+}
+.box05{
+    width: 100%;
+    padding-top: 45px;
+    text-align: center;
+}
+
+/* 서브페이지 스타일*/
+.font00{font-family: "Nanum Myeongjo", serif;
+        font-weight: 700;
+        color: white;
+        letter-spacing: -10;
+        line-height: 40px;}
+.font01{font-size: 27px;}
+.font02{font-size: 30px;}
+.font03{font-size: 40px;}
+.font04{font-size: 35px;}
+
+.font05{font-family: "segoe UI Regular";
+        font-weight: 500; color: white;}
+.font06{font-size: 20px; line-height: 40px; letter-spacing: -10;}
+.font07{font-size: 18px; line-height: 35px; letter-spacing: -10;}
+.font08{font-size: 20px; line-height: 35px; letter-spacing: -10;}
+.font09{font-size: 15px; line-height: 23px;}
+.font10{font-size: 14px; line-height: 23px;}
+
+.b01{height: 932px; background-repeat: no-repeat; background-color: black;}
+.b02{height: 932px; background-repeat: no-repeat; background-image: url(img/b2.png);}
+.b03{height: 930px; background-repeat: no-repeat; background-color: black;}
+.b04{height: 677px; background-repeat: no-repeat; background-image: url(img/b3.png);}
+.b05{height: 800px; background-repeat: no-repeat; background-image: url(img/b4.png);}
+.b06{height: 800px; background-repeat: no-repeat; background-image: url(img/b5.png);}
+.b07{height: 800px; background-repeat: no-repeat; background-image: url(img/b6.png);}
+.b08{height: 800px; background-repeat: no-repeat; background-image: url(img/b7.png);}
+.b09{height: 800px; background-repeat: no-repeat; background-image: url(img/b8.png);}
+footer{height: 400px; background-color: black;}
+
+/* b01 세부 내역 */
+.b01_i01{padding-top: 86px; padding-left: 30px;}
+.b01_i02{padding-top: 86px;}
+.b01_i03{padding-top: 86px;}
+.b01_i04{padding-top: 86px;}
+.b01_i05{padding-top: 20px; padding-left: 30px}
+.b01_i06{padding-top: 20px;}
+.b01_i07{padding-top: 20px;}
+.b01_i08{padding-top: 20px;}
+
+/* b01 세부 내역 */
+.b01_01{position: absolute; width: 410px;
+        text-align: center; justify-content: center;}
+.b01_02{position: absolute; width: 430px;
+        text-align: center; justify-content: center;
+        margin-top: 360px;
+        }
+.b01_03{position: absolute; width: 430px; text-align: center;
+        margin-top: 440px; justify-content: center;}
+
+
+/* b02 세부 내역 */
+.b02_01{position: absolute; width: 430px; text-align: center;
+        margin-top: 42px; justify-content: center;}
+.b02_02{position: absolute; width: 430px; text-align: center;
+        margin-top: 615px;}
+
+/*  b03 세부 내역 */
+.b03_01{position: absolute; align-items: center;
+        margin-top: 30px; justify-content: center; left: 14px;}
+.b03_02{position: absolute; text-align: center; width: 430px;
+        margin-top: 295px; justify-content: center;}
+.b03_03{position: absolute; text-align: center; width: 430px;
+        margin-top: 359px;}
+
+/* b04 세부 내역 */
+.b04_01{position: absolute; align-items: center;
+        margin-top: 571px; left: 115px;}
+
+/* b05 세부 내역 */
+.b05_01{position: absolute; margin-top: 57px; margin-left: 26px;}
+.b05_02{position: absolute; margin-top: 357px; margin-left: 44px;}
+.b05_03{position: absolute; margin-top: 372px; margin-left: 111px;}
+.b05_04{position: absolute; margin-top: 491px; margin-left: 24px; text-align: center;}
+
+/* b06 세부 내역 */
+.b06_01{position: absolute; margin-top: 57px; margin-left: 26px;}
+.b06_02{position: absolute; margin-top: 357px; margin-left: 44px;}
+.b06_03{position: absolute; margin-top: 372px; margin-left: 155px;}
+.b06_04{position: absolute; margin-top: 491px; margin-left: 24px; text-align: center;}
+
+/* b07 세부 내역 */
+.b07_01{position: absolute; margin-top: 57px; margin-left: 26px;}
+.b07_02{position: absolute; margin-top: 357px; margin-left: 44px;}
+.b07_03{position: absolute; margin-top: 372px; margin-left: 155px;}
+.b07_04{position: absolute; margin-top: 491px; margin-left: 24px; text-align: center;}
+
+/* b08 세부 내역 */
+.b08_01{position: absolute; margin-top: 57px; margin-left: 26px;}
+.b08_02{position: absolute; margin-top: 357px; margin-left: 44px;}
+.b08_03{position: absolute; margin-top: 372px; margin-left: 172px;}
+.b08_04{position: absolute; margin-top: 491px; margin-left: 24px; text-align: center;}
+
+/* b09 세부 내역 */
+.b09_01{position: absolute; margin-top: 57px; margin-left: 26px;}
+.b09_02{position: absolute; margin-top: 357px; margin-left: 44px;}
+.b09_03{position: absolute; margin-top: 372px; margin-left: 111px;}
+.b09_04{position: absolute; margin-top: 491px; margin-left: 47px; text-align: center;}
+
+/* footer 세부 내역 */
+.f01{position: absolute; margin-top: 24px; margin-left: 24px;}
+.f02{position: absolute; margin-top: 144px; margin-left: 24px;}
+.f03{position: absolute; margin-top: 271px; margin-left: 24px;}
